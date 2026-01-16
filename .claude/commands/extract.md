@@ -1,3 +1,8 @@
+---
+name: design-engineer:extract
+description: Extract design patterns from existing code to create a system.md file.
+---
+
 # design-engineer extract
 
 Extract design patterns from existing code to create a system.
@@ -5,8 +10,8 @@ Extract design patterns from existing code to create a system.
 ## Usage
 
 ```
-/design-engineer:extract          # Extract from common UI paths
-/design-engineer:extract <path>   # Extract from specific directory
+/extract          # Extract from common UI paths
+/extract <path>   # Extract from specific directory
 ```
 
 ## What to Extract

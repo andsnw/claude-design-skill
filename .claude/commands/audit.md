@@ -1,3 +1,8 @@
+---
+name: design-engineer:audit
+description: Check existing code against your design system for spacing, depth, color, and pattern violations.
+---
+
 # design-engineer audit
 
 Check existing code against your design system.
@@ -5,8 +10,8 @@ Check existing code against your design system.
 ## Usage
 
 ```
-/design-engineer:audit <path>     # Audit specific file/directory
-/design-engineer:audit            # Audit common UI paths
+/audit <path>     # Audit specific file/directory
+/audit            # Audit common UI paths
 ```
 
 ## What to Check
@@ -52,7 +57,7 @@ No design system to audit against.
 
 Create a system first:
 1. Build UI → establish system automatically
-2. Run /design-engineer:extract → create system from existing code
+2. Run /extract → create system from existing code
 ```
 
 ## Implementation
