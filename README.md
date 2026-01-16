@@ -52,8 +52,10 @@ See the difference: **[dashboard-v4-eta.vercel.app](https://dashboard-v4-eta.ver
 ### Plugin (Recommended - Full Features)
 
 ```bash
-/plugin install oakinleye/design-engineer
+/plugin marketplace add Dammyjay93/oakinleye
 ```
+
+Then run `/plugin install design-engineer` to install. Restart Claude Code after.
 
 Gets you:
 - ✅ Smart workflows (APPLY, ESTABLISH, EXTEND modes)
@@ -64,8 +66,8 @@ Gets you:
 ### Manual (Advanced)
 
 ```bash
-git clone https://github.com/Dammyjay93/design-engineer.git
-cd design-engineer
+git clone https://github.com/Dammyjay93/claude-design-engineer.git
+cd claude-design-engineer
 cp -r . ~/.claude/plugins/design-engineer
 ```
 
@@ -255,7 +257,8 @@ All old URLs redirect automatically
 rm -rf ~/.claude/skills/design-principles
 
 # Install new plugin
-/plugin install oakinleye/design-engineer
+/plugin marketplace add Dammyjay93/oakinleye
+/plugin install design-engineer
 ```
 
 Your system.md files (if any) continue to work — just rename `.ds-engineer/` to `.design-engineer/`.
