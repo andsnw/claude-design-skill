@@ -7,9 +7,9 @@ description: Build UI with craft and consistency. For interface design (dashboar
 
 Before writing any code, read these files completely:
 
-1. `.claude/skills/design-engineer/SKILL.md` — the foundation, principles, and checks
-2. `.claude/skills/design-engineer/references/principles.md` — detailed craft including subtle layering
-3. `.claude/skills/design-engineer/references/example.md` — how decisions translate to code
+1. `~/.claude/skills/design-engineer/SKILL.md` — the foundation, principles, and checks
+2. `~/.claude/skills/design-engineer/references/principles.md` — detailed craft including subtle layering
+3. `~/.claude/skills/design-engineer/references/example.md` — how decisions translate to code
 
 Do not skip this. The craft knowledge is in these files.
 
