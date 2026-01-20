@@ -12,14 +12,14 @@
     {
       "name": "interface-design",
       "description": "Design engineering for Claude Code. Build interfaces with craft, memory, and enforcement. Maintains consistent design decisions across sessions.",
-      "version": "2026.1.20.1407",
+      "version": "2026.1.20.1416",
       "author": {
         "name": "Damola Akinleye",
         "url": "https://github.com/Dammyjay93"
       },
       "source": "./",
       "category": "design",
-      "homepage": "https://github.com/Dammyjay93/claude-interface-design",
+      "homepage": "https://github.com/Dammyjay93/interface-design",
       "tags": ["design", "design-system", "ui", "craft", "memory", "enforcement", "consistency", "tokens"]
     }
   ]

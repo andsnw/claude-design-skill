@@ -1,4 +1,4 @@
-# Design Engineer
+# Interface Design
 
 <p align="center">
   <strong>Craft · Memory · Consistency</strong>
@@ -25,7 +25,7 @@
 
 When you build UI with Claude, design decisions get made: spacing values, colors, depth strategy, surface elevation. Without structure, those decisions drift across sessions.
 
-**Design Engineer helps you:**
+**Interface Design helps you:**
 
 1. **Craft** — Principle-based design that produces professional, polished interfaces
 2. **Memory** — Save decisions to `.interface-design/system.md`, load automatically
@@ -57,7 +57,7 @@ See the difference: **[dashboard-v4-eta.vercel.app](https://dashboard-v4-eta.ver
 
 ```bash
 # Add the marketplace
-/plugin marketplace add Dammyjay93/claude-interface-design
+/plugin marketplace add Dammyjay93/interface-design
 
 # Install the plugin
 /plugin menu
@@ -74,8 +74,8 @@ Gets you:
 ### Manual (Advanced)
 
 ```bash
-git clone https://github.com/Dammyjay93/claude-interface-design.git
-cd claude-interface-design
+git clone https://github.com/Dammyjay93/interface-design.git
+cd interface-design
 cp -r .claude/* ~/.claude/
 cp -r .claude-plugin/* ~/.claude-plugin/
 ```
@@ -246,7 +246,7 @@ All old URLs redirect automatically.
 rm -rf ~/.claude/skills/design-principles
 
 # Install new plugin
-/plugin marketplace add Dammyjay93/claude-interface-design
+/plugin marketplace add Dammyjay93/interface-design
 /plugin menu
 ```
 
@@ -271,5 +271,5 @@ MIT — See [LICENSE](LICENSE)
 ---
 
 <p align="center">
-  <a href="https://interface-design.vercel.app">Website</a> · <a href="https://github.com/Dammyjay93/claude-interface-design">GitHub</a>
+  <a href="https://interface-design.dev">Website</a> · <a href="https://github.com/Dammyjay93/interface-design">GitHub</a>
 </p>

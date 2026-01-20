@@ -3,7 +3,7 @@ name: interface-design
 description: This skill is for interface design — dashboards, admin panels, apps, tools, and interactive products. NOT for marketing design (landing pages, marketing sites, campaigns).
 ---
 
-# Design Engineer
+# Interface Design
 
 Build interface design with craft and consistency.
 
